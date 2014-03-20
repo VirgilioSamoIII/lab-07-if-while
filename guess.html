@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+//Assume the secret number is 25.
+var answer = prompt("Guess the secret number");
+num = parseInt(answer, 10);
+if (num == 25)
+{
+	console.log("You got it!!!");
+}
+else if ((15 < num) && (num < 25) || (25 < num) && (num < 35))
+{
+	console.log("Close....but no, the secret number was 25.");
+}
+else 
+{
+	console.log("Nope, it was 25");
+}
+</script>
+</body>
+</html>
